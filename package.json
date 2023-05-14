@@ -1,6 +1,6 @@
 {
   "name": "rspack-plugin-mpa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mpa plugin for rspack",
   "keywords": [
     "rspack",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/yzydeveloper/rspack-plugin-mpa.git"
   },
   "author": "yzydeveloper",
-  "files":[
+  "files": [
     "dist"
   ],
   "exports": {

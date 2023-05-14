@@ -1,0 +1,25 @@
+{
+  "name": "ror",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack dev",
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.1.10",
+    "@types/react": "^18.0.34",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.4",
+    "rspack-plugin-mpa": "workspace:*"
+  }
+}

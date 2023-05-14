@@ -12,6 +12,9 @@
     "url": "git+https://github.com/yzydeveloper/rspack-plugin-mpa.git"
   },
   "author": "yzydeveloper",
+  "files":[
+    "dist"
+  ],
   "exports": {
     ".": {
       "require": "./dist/index.js",

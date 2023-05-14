@@ -26,7 +26,7 @@
     "prepublish": "pnpm run build",
     "build": "tsup",
     "dev": "tsup --watch",
-    "release":"bumpp package.json --commit --push --tag && pnpm publish --access public"
+    "release":"bumpp package.json example/package.json --commit --push --tag && pnpm publish --access public"
   },
   "bugs": {
     "url": "https://github.com/yzydeveloper/rspack-plugin-mpa/issues"
